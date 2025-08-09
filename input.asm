@@ -6,3 +6,4 @@ L1:
 L2:
     ADDI R1, R0, 300
     HLT
+    # hello
