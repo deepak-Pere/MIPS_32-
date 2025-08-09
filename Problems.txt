@@ -1,0 +1,18 @@
+for Branch:
+1. branch address is taking one cycle late. ist sol:- I have to move the Branch logic from IF to ID or Find a different solution.
+2. After a branch i have to insert a NOP.
+
+
+for load - Stall 
+		
+	clk1			clk2 			clk1
+
+	prev ins	Stall detection 	for new instruction update
+			use:- EX_MEM_type
+			EX_MEM_IR,IF_ID_IR
+
+
+jump are using direct addressing
+
+
+			
