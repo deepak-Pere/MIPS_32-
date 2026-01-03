@@ -1,9 +1,6 @@
-    JUMP L1
-    ADDI R1, R0, 100      # Skipped
-L1:
-    JUMP L2
-    ADDI R1, R0, 200      # Skipped
-L2:
-    ADDI R1, R0, 300
-    HLT
-    # hello
+ADDI R1, R0, 7       # R1 = 7   (multiplicand)
+    ADDI R2, R0, 9       # R2 = 9   (multiplier)
+
+    MUL  R3, R1, R2      # R3 = R1 * R2 = 63
+
+    HLT                  # stop

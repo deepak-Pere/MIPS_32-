@@ -129,7 +129,7 @@ module test_M132;
     begin
         $dumpfile("M1.vcd");
         $dumpvars(0,test_M132);
-        $monitor("R1: %4d",M1.Reg[1]);
+        $monitor("R3: %4d",M1.Reg[3]);
         #3000 $finish;
 
     end
